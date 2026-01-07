@@ -32,9 +32,9 @@ public:
 
         cout << nome << " atacou " << inimigo.nome << " com " << dano << " de dano! ";
         if (inimigo.vida < 0)
-            cout << " a vida de " << inimigo.nome << " eh " << " 0 " << endl;
+            cout << "A vida de " << inimigo.nome << " eh " << " 0 " << endl;
         else
-            cout << " a vida de " << inimigo.nome << " eh " << inimigo.vida << endl;
+            cout << "A vida de " << inimigo.nome << " eh " << inimigo.vida << endl;
     }
 };
 
