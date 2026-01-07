@@ -11,12 +11,10 @@ Esse é o primeiro contato com POO, então, será simples!*/
 
 class Zumbi
 {
-private:
+public:
     // A) Aqui embaixo vêm os Atributos (variáveis)
     string nome;
     int dano;
-
-public:
     int vida; // A única coisa que pode ser alterada é VIDA, neste jogo!
 
     // CONSTRUTOR
