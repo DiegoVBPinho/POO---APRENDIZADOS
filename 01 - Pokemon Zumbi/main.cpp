@@ -56,19 +56,27 @@ int main()
 
     cout << endl;
 
+    // 3 - Fazer um duelo até a morte!!
     while (z1.vida > 0 && z2.vida > 0)
     {
+        // z1 está vivo para atacar?
 
-        // ataques
-        z1.atacar(z2);
-
-        z2.atacar(z1);
+        if (z1.vida > 0)
+        {
+            // ataques
+            z1.atacar(z2);
+        }
+        // z2 está vivo para atacar?
+        if (z2.vida > 0)
+            z2.atacar(z1);
     }
 
     if (z1.vida < 0)
         cout << z1.nome << " morreu!";
     else
         cout << z2.nome << " morreu!";
+
+    // 4 Adicionando CHAOS: A ideia do Caos é fazer com que Pikachu consiga ganhar!
 
     return 0;
 }
