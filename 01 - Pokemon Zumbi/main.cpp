@@ -70,7 +70,5 @@ int main()
     else
         cout << z2.nome << " morreu!";
 
-    // E) Conferência
-
     return 0;
 }
