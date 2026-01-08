@@ -1,0 +1,44 @@
+1. Um jeito de modelar o mundo no código
+
+    Em vez de escrever um monte de funções soltas, você cria objetos que representam coisas: Pessoa, Carro, ContaBancária, Produto. Cada objeto tem:
+    dados (atributos) → características
+    comportamentos (métodos) → o que ele pode fazer
+
+2. Os pilares da POO
+
+    Classe: o molde do objeto
+    Ex: a classe Carro descreve que todo carro tem cor, ano e pode acelerar.
+
+    Encapsulamento: proteger os dados
+    Nem todo mundo deve mexer direto dentro do objeto. Você controla o acesso.
+
+    Herança: reaproveitar estrutura
+    Aluno pode herdar de Pessoa, ganhando atributos como nome e idade.
+
+    Polimorfismo : mesmo método, comportamentos diferentes
+    forma.desenhar() funciona para círculo, quadrado, triângulo, cada um do seu jeito.
+
+    Abstração : focar no essencial
+    Uma Conta não precisa saber como o banco físico funciona por trás.
+
+3. Por que isso é diferente de “código rodando”?
+
+    Você pode fazer em Java assim:
+    tudo dentro do main
+    várias variáveis soltas
+    if gigante
+    métodos estáticos
+
+    Vai funcionar?
+    👉 Vai.
+
+    É POO?
+    👉 Não.
+
+    POO é quando você sabe responder:
+
+        Que classes existem no meu projeto?
+        Quem é responsável por cada regra?
+        Como os objetos conversam entre si?
+        Onde aplicar herança de verdade e não só por aplicar?
+        Como esconder implementação e expor só o necessário?
