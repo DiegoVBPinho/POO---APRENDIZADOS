@@ -28,6 +28,13 @@ public:
     // B) Aqui embaixo vêm os Métodos (funções)
     void atacar(Zumbi &inimigo)
     {
+        inimigo.vida -= dano;
+
+        cout << nome << " atacou " << inimigo.nome << " com " << dano << " de dano! ";
+        if (inimigo.vida < 0)
+            cout << "A vida de " << inimigo.nome << " eh " << " 0 " << endl;
+        else
+            cout << "A vida de " << inimigo.nome << " eh " << inimigo.vida << endl;
     }
 };
 
