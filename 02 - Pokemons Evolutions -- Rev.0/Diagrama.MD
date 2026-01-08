@@ -3,49 +3,61 @@
 🧠 DIAGRAMA MENTAL – JOGO POKÉMON (POO COMPLETA)
 ==================================================
 
-🎮 JOGO POKÉMON
+📁 ESTRUTURA DE ARQUIVOS
  |
- |-- 🧬 HERANÇA
+ |-- 📄 Pokemon.h
  |     |
  |     |-- Classe Base: Pokemon
- |     |     |
- |     |     |-- 🔒 Atributos (encapsulados)
- |     |     |-- 🔧 Construtor obrigatório
- |     |     |-- ⚔️ Métodos virtuais
- |     |
- |     |-- Classes Derivadas
- |           |-- PokemonFogo
- |           |-- PokemonAgua
- |           |-- PokemonPlanta
+ |     |-- 🔒 Atributos privados
+ |     |-- 🔧 Construtor
+ |     |-- ⚔️ Métodos virtuais (atacar)
  |
- |-- 🧠 POLIMORFISMO
+ |-- 📄 PokemonFogo.h
  |     |
- |     |-- atacar() virtual
- |     |-- comportamento depende do tipo real
+ |     |-- herda de Pokemon
+ |     |-- sobrescreve atacar()
  |
- |-- 📦 CADASTRO
+ |-- 📄 PokemonAgua.h
  |     |
- |     |-- 📍 main
- |     |-- criar array Pokemon*
- |     |-- instanciar Pokémons
+ |     |-- herda de Pokemon
+ |     |-- sobrescreve atacar()
  |
- |-- 🎲 SORTEIO
+ |-- 📄 PokemonPlanta.h
  |     |
- |     |-- 📍 main / função auxiliar
- |     |-- escolher dois índices diferentes
+ |     |-- herda de Pokemon
+ |     |-- sobrescreve atacar()
  |
- |-- ⚔️ FLUXO DO JOGO
+ |-- 📄 Pokemon.cpp
+ |     |
+ |     |-- implementação da classe base
+ |
+ |-- 📄 PokemonFogo.cpp
+ |-- 📄 PokemonAgua.cpp
+ |-- 📄 PokemonPlanta.cpp
+ |     |
+ |     |-- implementação específica de cada tipo
+ |
+ |-- 📄 main.cpp
        |
-       |-- 📍 main
-       |-- anunciar duelo
-       |-- executar ataques
-       |-- mostrar resultado
+       |-- 📦 CADASTRO DOS POKÉMONS
+       |     |-- cria array Pokemon*
+       |     |-- instancia 6 Pokémons
+       |
+       |-- 🎲 SORTEIO DO DUELO
+       |     |-- escolhe dois índices diferentes
+       |
+       |-- ⚔️ FLUXO DO JOGO
+             |-- anuncia duelo
+             |-- executa ataques (polimorfismo)
+             |-- mostra resultado
 
 --------------------------------------------------
 📌 REGRAS MENTAIS
 --------------------------------------------------
-- main orquestra
-- classes executam
+- main orquestra o jogo
+- classes executam regras
+- .h declara
+- .cpp implementa
 - atributos são privados
 - comportamento varia por herança
 
