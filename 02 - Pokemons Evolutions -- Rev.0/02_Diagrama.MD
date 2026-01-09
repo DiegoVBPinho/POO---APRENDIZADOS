@@ -168,14 +168,14 @@ Se uma etapa não funcionar, NÃO avance.
 [x] Incluir "Pokemon.h"
 [x] Criar class PokemonFogo : public Pokemon
 [x] Declarar construtor
-[] Declarar atacar(Pokemon&)
-[] Marcar atacar() com override
+[x] Declarar atacar(Pokemon&)
+[x] Marcar atacar() com override
 
 📄 ARQUIVO: PokemonFogo.cpp
 --------------------------------------------------
-[ ] Incluir "PokemonFogo.h"
-[ ] Implementar construtor
-[ ] Implementar atacar() com lógica diferente
+[x] Incluir "PokemonFogo.h"
+[x] Implementar construtor
+[x] Implementar atacar() com lógica diferente
 
 ==================================================
 ☑️ ETAPA 5 — TESTAR HERANÇA (SEM POLIMORFISMO)
@@ -183,10 +183,10 @@ Se uma etapa não funcionar, NÃO avance.
 
 📄 ARQUIVO: main.cpp
 --------------------------------------------------
-[ ] Incluir "PokemonFogo.h"
-[ ] Criar um PokemonFogo
-[ ] Criar um Pokemon normal
-[ ] Fazer o fogo atacar o Pokémon base
+[x] Incluir "PokemonFogo.h"
+[x] Criar um PokemonFogo
+[x] Criar um Pokemon normal
+[x] Fazer o fogo atacar o Pokémon base
 
 ==================================================
 ☑️ ETAPA 6 — POLIMORFISMO (PASSO CHAVE)
