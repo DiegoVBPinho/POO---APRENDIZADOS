@@ -118,23 +118,23 @@ Se uma etapa não funcionar, NÃO avance.
 
 📄 ARQUIVO: Pokemon.h
 --------------------------------------------------
-[ ] Criar a classe Pokemon
-[ ] Declarar os atributos:
+[x] Criar a classe Pokemon
+[x] Declarar os atributos:
     - nome
     - vida
     - dano
-[ ] Tornar os atributos PRIVADOS
-[ ] Declarar o construtor
-[ ] Declarar o método atacar(Pokemon&)
-[ ] NÃO usar virtual ainda
-[ ] NÃO pensar em herança ainda
+[x] Tornar os atributos PRIVADOS
+[x] Declarar o construtor
+[x ] Declarar o método atacar(Pokemon&)
+[x] NÃO usar virtual ainda
+[x] NÃO pensar em herança ainda
 
 📄 ARQUIVO: Pokemon.cpp
 --------------------------------------------------
-[ ] Incluir "Pokemon.h"
-[ ] Implementar o construtor
-[ ] Implementar atacar()
-[ ] Reduzir a vida do Pokémon inimigo
+[x] Incluir "Pokemon.h"
+[x] Implementar o construtor
+[x] Implementar atacar()
+[x] Reduzir a vida do Pokémon inimigo
 
 ==================================================
 ☑️ ETAPA 2 — TESTAR A BASE
@@ -142,10 +142,10 @@ Se uma etapa não funcionar, NÃO avance.
 
 📄 ARQUIVO: main.cpp
 --------------------------------------------------
-[ ] Incluir "Pokemon.h"
-[ ] Criar dois objetos Pokemon
-[ ] Fazer um atacar o outro
-[ ] Mostrar a vida após o ataque
+[x] Incluir "Pokemon.h"
+[x] Criar dois objetos Pokemon
+[x] Fazer um atacar o outro
+[x] Mostrar a vida após o ataque
 
 👉 Se isso não funcionar, PARE AQUI.
 
@@ -155,9 +155,9 @@ Se uma etapa não funcionar, NÃO avance.
 
 📄 ARQUIVO: Pokemon.h
 --------------------------------------------------
-[ ] Tornar atacar() um método VIRTUAL
-[ ] Criar destrutor virtual
-[ ] NÃO mexer no main
+[x] Tornar atacar() um método VIRTUAL
+[x] Criar destrutor virtual
+[x] NÃO mexer no main
 
 ==================================================
 ☑️ ETAPA 4 — PRIMEIRA HERANÇA (FOGO)
@@ -165,11 +165,11 @@ Se uma etapa não funcionar, NÃO avance.
 
 📄 ARQUIVO: PokemonFogo.h
 --------------------------------------------------
-[ ] Incluir "Pokemon.h"
-[ ] Criar class PokemonFogo : public Pokemon
-[ ] Declarar construtor
-[ ] Declarar atacar(Pokemon&)
-[ ] Marcar atacar() com override
+[x] Incluir "Pokemon.h"
+[x] Criar class PokemonFogo : public Pokemon
+[x] Declarar construtor
+[] Declarar atacar(Pokemon&)
+[] Marcar atacar() com override
 
 📄 ARQUIVO: PokemonFogo.cpp
 --------------------------------------------------

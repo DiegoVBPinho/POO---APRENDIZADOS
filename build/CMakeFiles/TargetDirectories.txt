@@ -1,0 +1,3 @@
+C:/Users/prefe/Documents/POO - APRENDIZADOS/build/CMakeFiles/poo.dir
+C:/Users/prefe/Documents/POO - APRENDIZADOS/build/CMakeFiles/edit_cache.dir
+C:/Users/prefe/Documents/POO - APRENDIZADOS/build/CMakeFiles/rebuild_cache.dir
