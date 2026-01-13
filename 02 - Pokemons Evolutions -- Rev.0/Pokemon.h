@@ -7,10 +7,10 @@ class Pokemon
 {
 public:
     // método construtor - Inicializa o estado do obj.
-    Pokemon(std::string name, int life, int attack);
-    Pokemon();
+    Pokemon(std::string name, int life, int attack); // CONSTRUTOR
+    Pokemon();                                       // Se a classe base não tem construtor vazio, TODA classe filha é OBRIGADA a chamar um construtor dela.
 
-    virtual ~Pokemon();
+    virtual ~Pokemon(); // VIRTUAL DESTRUTOR Para que os filhos possam ser "Finalizados"
 
     // virtual permite override
 

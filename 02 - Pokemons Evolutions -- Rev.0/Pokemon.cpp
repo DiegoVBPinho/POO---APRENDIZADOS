@@ -11,12 +11,9 @@ Pokemon::Pokemon(std::string name, int life, int attack)
     m_ataque = attack;
 }
 
-Pokemon::Pokemon()
-{
-    m_nome = "Error 404";
-    m_ataque = 0;
-    m_vida = 0;
-}
+Pokemon::Pokemon() {
+
+};
 
 Pokemon::~Pokemon()
 {

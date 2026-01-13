@@ -125,7 +125,7 @@ Se uma etapa não funcionar, NÃO avance.
     - dano
 [x] Tornar os atributos PRIVADOS
 [x] Declarar o construtor
-[x ] Declarar o método atacar(Pokemon&)
+[x] Declarar o método atacar(Pokemon&)
 [x] NÃO usar virtual ainda
 [x] NÃO pensar em herança ainda
 
